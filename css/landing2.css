@@ -1,0 +1,22 @@
+@charset "UTF-8";
+*{
+    background-image: url(../img/fruit1.jpg);
+    background-size: cover;
+    
+}
+div.head{
+    font-size: 50px;
+    font-family: cursive;
+    font-weight: 1000;
+    font-style: normal;
+    color: rgba(220, 10, 10, 0.973);
+}
+P{
+    font-size: 40px;
+    font-family: cursive;
+    font-style: italic;
+    color: red;
+    text-align: center;
+    font-weight: 900;
+}
+    

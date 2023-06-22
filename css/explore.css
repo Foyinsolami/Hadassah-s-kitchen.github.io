@@ -1,0 +1,104 @@
+@charset "UTF-8";
+*{
+    margin: 3px;
+    padding: 1px;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(241, 194, 132);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    color: red;
+    margin-left: 30px;
+    font-size: 27px
+
+}
+    nav h1{
+        color: red;
+        border-bottom: solid;
+        border-radius: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        border-color: black;
+        font-style: oblique;
+        font-size: 35px;
+        
+    }
+ul{
+    display: flex;
+
+  
+}
+ul li{
+    list-style: none;
+    margin-inline: 40px;
+    margin-left:120px;
+    margin-top: 17px;
+}
+a{
+    
+    text-decoration: none;
+    color: red;
+    font-style: oblique;
+    border-bottom: solid;
+    font-size: xx-large;
+}
+div.main{
+    display: flex;
+    justify-content: space-between;
+    color: red;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 20px;
+    
+}
+
+
+a:link{
+    color: red;
+}
+a:active{
+    color: black;
+}
+
+a:hover{
+    color: black;
+} 
+div.line h3{
+    background-color: red;
+    height:40px;
+    color: white;
+}
+
+div.thin{
+    background-color: red;
+    height: 10px;
+}
+h3{
+    background-color: red;
+    font-size: x-large;
+}
+h2{
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: brown;
+}
+section.items{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 30px 20px;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+}
+.item img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.2% ease;
+    border-radius: 100%;
+}
+.item img:hover{
+    transform: scale(1.04);
+}
